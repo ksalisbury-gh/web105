@@ -1,0 +1,18 @@
+body {
+    background-image: url("../assets/tile.png");
+    background-repeat: repeat;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+.div1 {
+    max-width: 750px;
+    margin: auto;
+    border: 3px solid white;
+}
+
+.div2 {
+    max-width: 750px;
+    margin: auto;
+}
