@@ -1,5 +1,7 @@
 body{
     background-color: ivory;
+    color: white;
+    text-shadow: 5px 5px 5px black;
     font-family: arial, helvetica, sans-serif;
     padding: 10px;
     line-height: 1.5;
