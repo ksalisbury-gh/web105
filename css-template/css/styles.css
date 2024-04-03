@@ -1,70 +1,48 @@
-/* font-family: 'Montserrat', ;
-font-family: 'Open Sans', ; */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-body{
-    background-color: ivory;
-    color: white;
-    text-shadow: 5px 5px 5px black;
-    font-family: 'Open Sans', sans-serif;
-    padding: 10px;
-    line-height: 1.5;
-    font-size: 18px;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
-div, header, footer, nav, main, aside{
-    overflow: auto;
-    border: 1px solid gold;
-    margin: 10px;
-    padding: 10px;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
-.container{
-    width: 80%;
-    margin: 10px auto;
-    padding: 10px;
-    border: 2px solid rebeccapurple;
-    background: rgb(2,0,36);
-    background: linear-gradient(5deg, rgba(2,0,36,1) 0%, rgba(255,149,0,1) 35%, rgba(4,0,255,1) 100%);
+body {
+	line-height: 1;
 }
-
-.container .container{
-    border: 4px solid burlywood;
-    border-radius: 20px;
+ol, ul {
+	list-style: none;
 }
-
-nav{
-    font-family: 'Montserrat', sans-serif;
-    font-style: italic;
-    text-align: center;
+blockquote, q {
+	quotes: none;
 }
-
-h2{
-    text-align: left;
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
-
-.container p{
-    margin-left: 15px;
-}
-
-#p1{
-    font-weight: bold;
-    color: orange;
-    padding: 30px;
-}
-
-#p2{
-    color: greenyellow;
-    padding: 15px;
-}
-
-#p3{
-    color: hotpink;
-    font-family: 'Montserrat', sans-serif;
-    padding: 5px;
-}
-
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
