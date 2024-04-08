@@ -28,6 +28,17 @@
 
 */
 
+/*      ✨✨ ✨ ✨             variables       ✨✨✨✨    */
+:root { 
+    --primary-color: #fda000;
+    --secondary-color: #51f595;
+    --warning:#F24405;
+    --dark-text: #590202;
+    --light-text: white;
+    --my-serif:"DM Serif Display", serif;
+    --my-sans: "Work Sans", sans-serif;
+  }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -81,7 +92,7 @@ table {
 /*   my styles   */
 
 body{
-    font-family: "Work Sans", sans-serif;
+    font-family:var(--my-sans);
     font-size: x-large;
     line-height: 2;
 }
@@ -90,7 +101,7 @@ body{
     width: 80%;
     margin: 10px auto;
     padding: 15px;
-    border: 2px solid #9151DB;
+    border: 2px solid var(--primary-color);
 }
 
 img{
@@ -105,13 +116,13 @@ nav{
 
 nav a{
     padding: 5px 10px;
-    color: white;
-    background: #9151DB;
+    color: var(--light-text);
+    background: var(--primary-color);
 }
 
 h1, h2, h3, h4{
-    font-family: "DM Serif Display", serif;
+    font-family: var(--my-serif);
 	font-weight:bold;
 	text-align: center;
-    color: orangered;
+    color: var(--warning)
 }
