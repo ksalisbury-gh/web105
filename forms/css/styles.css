@@ -1,0 +1,38 @@
+/*   my styles   */
+
+body{
+    font-family: "Work Sans", sans-serif;
+    font-size: x-large;
+    line-height: 2;
+    color: white;
+    background-color: #212121;
+    text-shadow: 2px 2px 4px black;
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    border: 2px solid #ff7b00;
+}
+
+img{
+    width: 40%;
+    margin: 15px auto;
+}
+
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    padding: 5px 10px;
+    color: white;
+    background: #ff7b00;
+}
+
+h1, h2, h3, h4{
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+}
