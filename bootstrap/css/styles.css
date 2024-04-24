@@ -1,0 +1,18 @@
+.masthead{
+    background-color: rebeccapurple;
+    color:gold;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+   
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.border{
+    border-color: rebeccapurple;
+}
+
+.bg-purple{
+    background-color: rebeccapurple;
+}
