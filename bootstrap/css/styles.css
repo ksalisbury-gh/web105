@@ -1,12 +1,42 @@
 .masthead{
-    background-color: rebeccapurple;
-    color:gold;
+    background: linear-gradient(124deg, #9b1500, #8a1212, #8f7212, #848612, #108023, #107a80, #191186, #8f019c, #890196);
+    background-size: 500% 500%;
     font-size: xx-large;
     font-weight: bold;
     text-align: center;
-   
+    color: white;
+    text-shadow: 2px 2px 8px black;
     padding: 25px;
     margin-top: 50px;
+
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position: 0% 82%}
+    50%{background-position: 100% 19%}
+    100%{background-position: 0% 82%}
+}
+
+@-moz-keyframes rainbow {
+    0%{background-position: 0% 82%}
+    50%{background-position: 100% 19%}
+    100%{background-position: 0% 82%}
+}
+
+@-o-keyframes rainbow {
+    0%{background-position: 0% 82%}
+    50%{background-position: 100% 19%}
+    100%{background-position: 0% 82%}
+}
+
+@keyframes rainbow {
+    0%{background-position: 0% 82%}
+    50%{background-position: 100% 19%}
+    100%{background-position: 0% 82%}
 }
 
 .border{
@@ -15,4 +45,37 @@
 
 .bg-purple{
     background-color: rebeccapurple;
+}
+
+body{
+    background-color: #1f1f1f;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+.alert-primary {
+    text-align: center;
+    color: white;
+    background-color: #793606;
+    border-color: #793606;
+}
+
+.img {
+    border-radius: 150%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+
+.par {
+    font-weight: normal;
+    font-size: smaller;
+}
+
+.border {
+    text-align: center;
+    width: 750px;
+    margin: auto;
 }
